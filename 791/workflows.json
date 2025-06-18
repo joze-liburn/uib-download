@@ -1,0 +1,1220 @@
+[
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289301495160.2521656773772927",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varHorMenuItems",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17286063147910.8796513603578666",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varZenUserProfile",
+    "nameConfigured": true,
+    "parentId": null,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17286063324720.63513888257303",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varZenOrgProfile",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17291741779930.8249553819555828",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varStrZenUserId",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289207928930.22229641577042258",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varStrZenOrgId",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289276029740.4375851834893847",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLbSessionIdValid",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "false",
+      "value": "false",
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289276667490.6437877563328975",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varUiBakeryUserValid",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "false",
+      "value": "false",
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "configured": true,
+    "id": "17285308797270.10818154299036564",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "lbsessionid",
+    "nameConfigured": true,
+    "parentId": null,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289337687720.5073459046810489",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "lbsessionid_lb_id",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "-1",
+      "value": "-1",
+      "valueType": "number",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17286003228080.21587715153481568",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varMenuShow",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": false,
+      "value": false,
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17285723931760.5036779157057283",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLoggedInUser",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17285734919400.18947582059537282",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLoggedInUserPrepend",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17285727659090.21053477143638455",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLoginLogoutText",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "Login",
+      "value": "Login",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17285733018410.2531859744500866",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLoginLogoutShow",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "true",
+      "value": "true",
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17290432276230.7984788941309218",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varLogoutHomepageRefresh",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": false,
+      "value": false,
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17285728287280.5516412254001724",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "uiBakeryLoggedInUser",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "",
+      "value": "",
+      "valueType": "string",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.appLoadInit.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.appLoadInit.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": true,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.appLoadInit.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17285309178700.2136871237782545",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "appLoadInit",
+    "nameConfigured": true,
+    "parentId": null,
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": true,
+        "id": "17285728963230.776724090682559",
+        "isChanged": true,
+        "level": 0,
+        "name": "getUibLoggedInUser",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "state.uiBakeryLoggedInUser = user.email;\n\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      },
+      {
+        "fallthroughError": true,
+        "id": "17285314933280.662799416080821",
+        "isChanged": true,
+        "level": 0,
+        "name": "getLocalSessionId",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "{{state.lbsessionid}} = {{localStorage}}.getItem('lbsessionid');",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      },
+      {
+        "fallthroughError": true,
+        "id": "17285729835580.515829472074832",
+        "isChanged": true,
+        "level": 0,
+        "name": "condition_uiBakerySession",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "code",
+            "value": "return state.uiBakeryLoggedInUser.includes(\"@lightburnsoftware.com\");",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "steps",
+            "value": [
+              {
+                "condition": true,
+                "steps": [
+                  {
+                    "fallthroughError": false,
+                    "id": "17285730871190.25733770919985366",
+                    "isChanged": true,
+                    "level": 0,
+                    "name": "codeUibLoggedInUser",
+                    "nameConfigured": true,
+                    "params": [
+                      {
+                        "interpolationType": "code",
+                        "type": "asyncCode",
+                        "value": "state.varLoggedInUserPrepend = \", \";\nstate.varLoggedInUser = state.uiBakeryLoggedInUser;\nstate.varLoginLogoutShow = true;\nstate.varLoginLogoutText = 'Login';\nstate.varMenuShow = true;\nstate.varUiBakeryUserValid = true;\n\nreturn true;",
+                        "valueType": "interpolatedValue"
+                      }
+                    ],
+                    "type": "customAsyncCode"
+                  }
+                ]
+              },
+              {
+                "condition": false,
+                "steps": []
+              }
+            ],
+            "valueType": "custom"
+          }
+        ],
+        "type": "condition"
+      },
+      {
+        "fallthroughError": true,
+        "id": "17291997725280.21806554757400565",
+        "isChanged": true,
+        "level": 0,
+        "name": "condition_lbsessionid",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "code",
+            "value": "return (state.lbsessionid !== undefined \u0026\u0026 state.lbsessionid !== null \u0026\u0026 state.lbsessionid !== '');",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "steps",
+            "value": [
+              {
+                "condition": true,
+                "steps": [
+                  {
+                    "fallthroughError": true,
+                    "id": "17291997725280.16778206592122658",
+                    "isChanged": true,
+                    "level": 2,
+                    "name": "queryValidateSessionId",
+                    "nameConfigured": true,
+                    "params": [
+                      {
+                        "interpolationType": "string",
+                        "type": "query",
+                        "value": "SELECT lb_id, email, (session_id = crypt({{state.lbsessionid}}, session_id)) AS session_id_match FROM public.lb_access_session WHERE session_id IS NOT NULL AND session_id = crypt({{state.lbsessionid}}, session_id) AND lb_create_ts \u003e NOW() - INTERVAL '7 DAY';",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "mustSelectFirst": true,
+                        "type": "datasourceId",
+                        "value": "Lightburn (PG)",
+                        "valueType": "string"
+                      },
+                      {
+                        "type": "preparedQuery",
+                        "value": "SELECT lb_id, email, (session_id = crypt(?, session_id)) AS session_id_match FROM public.lb_access_session WHERE session_id IS NOT NULL AND session_id = crypt(?, session_id) AND lb_create_ts \u003e NOW() - INTERVAL '7 DAY';",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "preparedQueryParams",
+                        "value": [
+                          "__UI_BAKERY__FORMAT_IF_DATE__(state.lbsessionid)",
+                          "__UI_BAKERY__FORMAT_IF_DATE__(state.lbsessionid)"
+                        ],
+                        "valueType": "custom"
+                      },
+                      {
+                        "type": "customDatabaseName",
+                        "value": "",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "stepVersion",
+                        "value": 2,
+                        "valueType": "custom"
+                      },
+                      {
+                        "type": "successMapper",
+                        "value": "",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "failureMapper",
+                        "value": "",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "mapperEnabled",
+                        "value": false,
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "customSQLQuery"
+                  },
+                  {
+                    "fallthroughError": false,
+                    "id": "17291997725280.4970780249823188",
+                    "isChanged": true,
+                    "level": 1,
+                    "name": "conditionValidSession",
+                    "nameConfigured": true,
+                    "params": [
+                      {
+                        "interpolationType": "code",
+                        "type": "code",
+                        "value": "return {{steps.queryValidateSessionId.data !== undefined \u0026\u0026 steps.queryValidateSessionId.data !== null \u0026\u0026 steps.queryValidateSessionId.data.length === 1}};",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "steps",
+                        "value": [
+                          {
+                            "condition": true,
+                            "steps": [
+                              {
+                                "fallthroughError": false,
+                                "id": "17291997725280.02486459348971648",
+                                "isChanged": true,
+                                "level": 2,
+                                "name": "codeAccessCodeValid",
+                                "nameConfigured": true,
+                                "params": [
+                                  {
+                                    "interpolationType": "code",
+                                    "type": "asyncCode",
+                                    "value": "state.varLbSessionIdValid = {{steps.queryValidateSessionId.data[0].session_id_match}};\nstate.lbsessionid_lb_id = {{steps.queryValidateSessionId.data[0].lb_id}};\nstate.varLoggedInUserPrepend = \", \";\nstate.varLoggedInUser = {{steps.queryValidateSessionId.data[0].email}};\nstate.varLoginLogoutText = 'Logout';\n\nreturn {{data}};",
+                                    "valueType": "interpolatedValue"
+                                  }
+                                ],
+                                "type": "customAsyncCode"
+                              }
+                            ]
+                          },
+                          {
+                            "condition": false,
+                            "steps": [
+                              {
+                                "fallthroughError": false,
+                                "id": "17291997725280.03242164166649997",
+                                "isChanged": true,
+                                "level": 1,
+                                "name": "codeResetLogin",
+                                "nameConfigured": true,
+                                "params": [
+                                  {
+                                    "interpolationType": "code",
+                                    "type": "asyncCode",
+                                    "value": "localStorage.removeItem('lbsessionid');\nstate.lbsessionid = null;\nstate.lbsessionid_lb_id = null;\nstate.varLoggedInUserPrepend = \"\";\nstate.varLoggedInUser = '';\nstate.varLoginLogoutText = 'Login'\nstate.varLbSessionIdValid = false;\nstate.varUiBakeryUserValid = false;\n\nreturn true;",
+                                    "valueType": "interpolatedValue"
+                                  }
+                                ],
+                                "type": "customAsyncCode"
+                              }
+                            ]
+                          }
+                        ],
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "condition"
+                  }
+                ]
+              },
+              {
+                "condition": false,
+                "steps": []
+              }
+            ],
+            "valueType": "custom"
+          }
+        ],
+        "type": "condition"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17376547243460.6877906715932502",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_processAppGets",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17376546071140.38129807547340167",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.loginLogout.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.loginLogout.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": true,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.loginLogout.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": false,
+    "id": "17285321991100.7058328460899554",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "loginLogout",
+    "nameConfigured": true,
+    "parentId": null,
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17290031696460.5980223944679086",
+        "isChanged": true,
+        "level": 0,
+        "name": "conditionNavigate",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "code",
+            "value": "return state.varLoginLogoutText === 'Login';",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "steps",
+            "value": [
+              {
+                "condition": true,
+                "steps": [
+                  {
+                    "fallthroughError": false,
+                    "id": "17289339991170.5414748011034993",
+                    "isChanged": true,
+                    "level": 0,
+                    "name": "navigate",
+                    "params": [
+                      {
+                        "interpolationType": "string",
+                        "type": "url",
+                        "value": "{{routes.login.url}}",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "interpolationType": "string",
+                        "type": "queryParams",
+                        "value": {
+                          "mode": "structured",
+                          "value": {
+                            "custom": "",
+                            "structured": [
+                              {
+                                "name": "",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "navigation"
+                  }
+                ]
+              },
+              {
+                "condition": false,
+                "steps": [
+                  {
+                    "fallthroughError": false,
+                    "id": "17285322261670.18779723011558258",
+                    "isChanged": true,
+                    "level": 0,
+                    "name": "conditionSessionId",
+                    "nameConfigured": true,
+                    "params": [
+                      {
+                        "interpolationType": "code",
+                        "type": "code",
+                        "value": "return {{state.lbsessionid}}!== undefined \u0026\u0026 {{state.lbsessionid}}!== null \u0026\u0026 {{state.lbsessionid.length}} \u003e 0 \u0026\u0026 {{state.varLbSessionIdValid}};",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "steps",
+                        "value": [
+                          {
+                            "condition": true,
+                            "steps": [
+                              {
+                                "fallthroughError": false,
+                                "id": "17290029686000.6600462762890944",
+                                "isChanged": true,
+                                "level": 0,
+                                "name": "codeEmptySessionId",
+                                "nameConfigured": true,
+                                "params": [
+                                  {
+                                    "interpolationType": "code",
+                                    "type": "asyncCode",
+                                    "value": "localStorage.removeItem('lbsessionid');\nstate.lbsessionid = null;\nstate.lbsessionid_lb_id = null;\nstate.varLoggedInUserPrepend = \"\";\nstate.varLoggedInUser = '';\nstate.varLoginLogoutText = 'Login';\nstate.varLbSessionIdValid = false;\nstate.varUiBakeryUserValid = false;\nstate.varLogoutHomepageRefresh = true;\n\nreturn true;",
+                                    "valueType": "interpolatedValue"
+                                  }
+                                ],
+                                "type": "customAsyncCode"
+                              }
+                            ]
+                          },
+                          {
+                            "condition": false,
+                            "steps": []
+                          }
+                        ],
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "condition"
+                  },
+                  {
+                    "fallthroughError": false,
+                    "id": "17290056178010.3567724488035189",
+                    "isChanged": true,
+                    "level": 2,
+                    "name": "interval",
+                    "params": [
+                      {
+                        "interpolationType": "code",
+                        "type": "interval",
+                        "value": "100",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "interpolationType": "code",
+                        "type": "stopWhen",
+                        "value": "return {{ state.varLoginLogoutText === 'Login' \u0026\u0026 (localStorage.getItem('lbsessionid') === undefined || localStorage.getItem('lbsessionid') === null) }}",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "skipNext",
+                        "value": true,
+                        "valueType": "custom"
+                      }
+                    ],
+                    "paused": false,
+                    "type": "interval"
+                  },
+                  {
+                    "fallthroughError": false,
+                    "id": "17289340774950.4983730117568532",
+                    "isChanged": true,
+                    "level": 1,
+                    "name": "navigateHome",
+                    "nameConfigured": true,
+                    "params": [
+                      {
+                        "interpolationType": "string",
+                        "type": "url",
+                        "value": "{{routes.home.url}}",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "interpolationType": "string",
+                        "type": "queryParams",
+                        "value": {
+                          "mode": "structured",
+                          "value": {
+                            "custom": "",
+                            "structured": [
+                              {
+                                "name": "",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "navigation"
+                  }
+                ]
+              }
+            ],
+            "valueType": "custom"
+          }
+        ],
+        "type": "condition"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.processAppGets.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.processAppGets.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": true,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.processAppGets.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17376546071140.38129807547340167",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "processAppGets",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17376546425450.8681697936040407",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_getFieldNames",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17289163716270.5024835657306497",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17376546737400.9686743542808034",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_getFieldToolTips",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17289182548920.9708132359045543",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      }
+    ]
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289164046370.37055801947072764",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapFieldNames",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17289182381930.5644731536155505",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapFieldToolTips",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.getFieldNames.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.getFieldNames.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": true,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.getFieldNames.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17289163716270.5024835657306497",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "getFieldNames",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17289163716270.5805312874069872",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetFieldNames",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT field_name AS key, field_display_name AS value FROM public.cert_rating_field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT field_name AS key, field_display_name AS value FROM public.cert_rating_field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17289163716270.5219171725387248",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeSetMapVariable",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "const resultObject = {};\n\n{{steps.queryGetFieldNames.data}}.forEach(item =\u003e {\n    resultObject[item.key] = item.value;\n});\n\n// This returns a Map where you can get values by key\nstate.mapFieldNames = resultObject;\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.getFieldToolTips.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.getFieldToolTips.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": true,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.getFieldToolTips.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17289182548920.9708132359045543",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "getFieldToolTips",
+    "nameConfigured": true,
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17289182548920.6785364730385037",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetFieldToolTips",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT field_name AS key, description AS value FROM public.cert_rating_field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT field_name AS key, description AS value FROM public.cert_rating_field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17289182548920.9156695303297255",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeSetMapVariable",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "const resultObject = {};\n\n{{steps.queryGetFieldToolTips.data}}.forEach(item =\u003e {\n    resultObject[item.key] = item.value;\n});\n\n// This returns a Map where you can get values by key\nstate.mapFieldToolTips = resultObject;\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": true
+    },
+    "configured": true,
+    "id": "17291913149730.09653659660456637",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapGlobalFilter",
+    "nameConfigured": true,
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  }
+]

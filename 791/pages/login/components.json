@@ -1,0 +1,921 @@
+[
+  {
+    "definitionId": "grid",
+    "id": "17285310452590.02888776514763136",
+    "index": 0,
+    "parentSlotId": "17285310452590.732357303110069",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "name": "login",
+      "pageTitle": "{{app.name}} - {{activeRoute.name}}"
+    },
+    "styles": {}
+  },
+  {
+    "actions": {
+      "close": [],
+      "init": [],
+      "open": []
+    },
+    "definitionId": "modal",
+    "id": "17285338681970.3102626802810029",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl"
+      ],
+      "__UIBAKERY__SHOW__CONDITION__CODE__": "false",
+      "__UIBAKERY__SHOW__CONDITION__PRESERVE__": {
+        "dataValue": "false",
+        "value": true,
+        "withData": false
+      },
+      "buttonText": "Request Access Code",
+      "hideMode": "notRendered",
+      "name": "modalRequestAccessCode"
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 5,
+          "x": 12,
+          "y": 81
+        },
+        "modalSize": {
+          "heightUnit": null,
+          "heightValue": "auto",
+          "maxHeightUnit": null,
+          "maxHeightValue": "none",
+          "maxWidthUnit": null,
+          "maxWidthValue": "none",
+          "minHeightUnit": "px",
+          "minHeightValue": 0,
+          "minWidthUnit": "px",
+          "minWidthValue": 0,
+          "widthUnit": "%",
+          "widthValue": "50"
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "blurEvent": [],
+      "enter": [
+        {
+          "action": "17289351527710.2803962863078304",
+          "blockPageLoad": false,
+          "index": 0,
+          "paramCode": "",
+          "preventDefault": false
+        }
+      ],
+      "focusEvent": [],
+      "init": [],
+      "validate": [],
+      "valueChange": []
+    },
+    "definitionId": "passwordEdit",
+    "id": "17285338829070.9617356646103532",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl"
+      ],
+      "hideMode": "notRendered",
+      "iconPlacement": "start",
+      "labelConfig": {
+        "align": "left",
+        "position": "vertical",
+        "text": "Access Code"
+      },
+      "length": {
+        "dataValue": "[0, 10]",
+        "value": {
+          "max": 100,
+          "min": 1
+        },
+        "withData": false
+      },
+      "name": "inputAccessCode",
+      "regexpPatternErrorMessage": "Invalid Access Code",
+      "required": {
+        "dataValue": "false",
+        "value": true,
+        "withData": false
+      }
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 14,
+          "w": 10,
+          "x": 7,
+          "y": 90
+        },
+        "labelColor": {
+          "dataValue": "basic",
+          "value": "basic",
+          "withData": false
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 9
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "buttonClick": [
+        {
+          "action": "17289351527710.2803962863078304",
+          "index": 0,
+          "paramCode": ""
+        }
+      ]
+    },
+    "definitionId": "button",
+    "id": "17285339041540.03646815772233425",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl"
+      ],
+      "hideMode": "notRendered",
+      "name": "btnLogin",
+      "text": "Login"
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 5,
+          "x": 12,
+          "y": 104
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 18
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "buttonClick": [
+        {
+          "action": "17114140154790.2887712312145294",
+          "index": 0,
+          "paramCode": ""
+        }
+      ]
+    },
+    "definitionId": "button",
+    "id": "17289319281720.9623191074542425",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "hideMode": "notRendered",
+      "icon": {
+        "dataValue": "star-outline",
+        "value": "arrow-back",
+        "withData": false
+      },
+      "linkInfo": {
+        "active": "internalPath",
+        "externalPath": "",
+        "internalPath": "{{routes.home.url}}"
+      },
+      "name": "btnNavHome",
+      "text": ""
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 1,
+          "x": 1,
+          "y": 1
+        },
+        "iconPlacement": "center"
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "blurEvent": [],
+      "enter": [],
+      "focusEvent": [],
+      "init": [],
+      "validate": [],
+      "valueChange": []
+    },
+    "definitionId": "stringEdit",
+    "id": "17289391329680.1429270778490992",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl"
+      ],
+      "hideMode": "notRendered",
+      "labelConfig": {
+        "align": "left",
+        "position": "vertical",
+        "text": "Vendor Email Address"
+      },
+      "name": "inputEmailAddressLogin",
+      "regexpPattern": "/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$/i",
+      "regexpPatternErrorMessage": "Please provide a valid email format",
+      "required": {
+        "dataValue": "false",
+        "value": true,
+        "withData": false
+      }
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 14,
+          "w": 10,
+          "x": 7,
+          "y": 58
+        },
+        "labelColor": {
+          "dataValue": "basic",
+          "value": "basic",
+          "withData": false
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 36
+        }
+      }
+    }
+  },
+  {
+    "actions": {},
+    "definitionId": "text",
+    "id": "17290242172330.15247448064880165",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "alignment": "center",
+      "name": "text3",
+      "textStyle": {
+        "styles": [
+          "bold"
+        ],
+        "transform": "none"
+      },
+      "value": "? Log In with a One-Time Access Code",
+      "verticalAlignment": "middle"
+    },
+    "styles": {
+      "xl": {
+        "color": {
+          "dataValue": "basic",
+          "value": "basic",
+          "withData": false
+        },
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "fontSize": {
+          "customUnit": "px",
+          "customValue": 20,
+          "themeDefaultOverridePropertyKey": "baseTextFontSize"
+        },
+        "gridItem": {
+          "h": 20,
+          "w": 10,
+          "x": 7,
+          "y": 10
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 24,
+          "x": 0,
+          "y": 13
+        }
+      }
+    }
+  },
+  {
+    "actions": {},
+    "definitionId": "text",
+    "id": "17292006528620.2486217548668268",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xs"
+      ],
+      "alignment": "center",
+      "name": "text5",
+      "value": "Not Available on Mobile.",
+      "verticalAlignment": "middle"
+    },
+    "styles": {
+      "xl": {
+        "color": {
+          "dataValue": "basic",
+          "value": "warning",
+          "withData": false
+        },
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "fontSize": {
+          "customUnit": "px",
+          "customValue": 15,
+          "themeDefaultOverridePropertyKey": "baseTextFontSize"
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 24,
+          "x": 0,
+          "y": 30
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 10,
+          "w": 24,
+          "x": 0,
+          "y": 22
+        }
+      }
+    }
+  },
+  {
+    "definitionId": "heading",
+    "id": "17285338681970.690053618150879",
+    "index": 0,
+    "parentSlotId": "17285338681970.13686158054194442",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "name": "heading4",
+      "text": "Request Access Code",
+      "verticalAlignment": "middle"
+    },
+    "styles": {
+      "xl": {
+        "fontSize": {
+          "customUnit": "px",
+          "customValue": 12,
+          "themeDefaultOverridePropertyKey": "baseTextFontSize"
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "buttonClick": [
+        {
+          "action": "17290249787840.6360854430465093",
+          "blockPageLoad": false,
+          "index": 0,
+          "paramCode": "",
+          "preventDefault": false
+        }
+      ],
+      "init": []
+    },
+    "definitionId": "button",
+    "id": "17285338681970.6691559339281359",
+    "index": 0,
+    "parentSlotId": "17285338681970.9004532735378621",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "name": "btnSubmitForAccessCode2",
+      "text": "Submit"
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 4,
+          "x": 19,
+          "y": 32
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "blurEvent": [],
+      "enter": [
+        {
+          "action": "17290249787840.6360854430465093",
+          "blockPageLoad": false,
+          "index": 0,
+          "paramCode": "",
+          "preventDefault": false
+        }
+      ],
+      "focusEvent": [],
+      "init": [],
+      "validate": [],
+      "valueChange": []
+    },
+    "definitionId": "stringEdit",
+    "id": "17285338681970.5439712273509931",
+    "index": 0,
+    "parentSlotId": "17285338681970.9004532735378621",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "labelConfig": {
+        "align": "left",
+        "position": "horizontal",
+        "text": "Email Address"
+      },
+      "margin": {
+        "dataValue": "13px",
+        "value": true,
+        "withData": true
+      },
+      "name": "inputEmailAddressReqAccessCode",
+      "regexpPattern": "/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$/i",
+      "regexpPatternErrorMessage": "Please provide a valid email format"
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 14,
+          "w": 18,
+          "x": 1,
+          "y": 30
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 9
+        }
+      }
+    }
+  },
+  {
+    "actions": {},
+    "definitionId": "text",
+    "id": "17285338681970.5925415395431053",
+    "index": 0,
+    "parentSlotId": "17285338681970.9004532735378621",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "heightMode": "fixed",
+      "name": "text2",
+      "value": "Requesting an access code requires a working email address.  If you are authorized to receive an access code, you will receive an email containing your unique access code within 15 minutes of submitting.  This code has an expiration date and will be defined in the email."
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "fontSize": {
+          "customUnit": "px",
+          "customValue": 14,
+          "themeDefaultOverridePropertyKey": "baseTextFontSize"
+        },
+        "gridItem": {
+          "h": 23,
+          "w": 22,
+          "x": 1,
+          "y": 3
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 24,
+          "x": 0,
+          "y": 18
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "init": [],
+      "linkClick": []
+    },
+    "definitionId": "link",
+    "id": "17418968824920.9376144696690063",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "alignment": "right",
+      "decoration": "strikethrough",
+      "linkInfo": {
+        "active": "externalPath",
+        "externalPath": "https://lasers.lightburnsoftware.com/share/o9HJWWoCZl",
+        "internalPath": ""
+      },
+      "name": "linkAdm",
+      "openInNewTab": false,
+      "overflowType": {
+        "dataValue": "none",
+        "value": "hidden",
+        "withData": false
+      },
+      "text": "| - |"
+    },
+    "styles": {
+      "xl": {
+        "color": {
+          "dataValue": "primary",
+          "value": "alternate",
+          "withData": false
+        },
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 1,
+          "x": 22,
+          "y": 1
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 24,
+          "x": 0,
+          "y": 54
+        }
+      }
+    }
+  },
+  {
+    "actions": {},
+    "definitionId": "text",
+    "id": "17440493840650.20533406839046542",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "name": "textProcessInfo",
+      "value": "This login uses an emailed access code � no password needed.\n\n1. Enter your vendor account email\n2. Click \"Request Access Code\"\n3. Check your email and paste the code below\n4. Click \"Login\""
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 28,
+          "w": 10,
+          "x": 7,
+          "y": 30
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 24,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 6,
+          "w": 24,
+          "x": 0,
+          "y": 60
+        }
+      }
+    }
+  },
+  {
+    "actions": {
+      "buttonClick": [
+        {
+          "action": "17290249787840.6360854430465093",
+          "blockPageLoad": false,
+          "index": 0,
+          "paramCode": "",
+          "preventDefault": false
+        }
+      ],
+      "init": []
+    },
+    "definitionId": "button",
+    "id": "17440495510650.6043251148288027",
+    "parentSlotId": "17285310452590.8202295071558083",
+    "properties": {
+      "__UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__": [
+        "xl",
+        "xs"
+      ],
+      "linkInfo": {
+        "active": "internalPath",
+        "externalPath": "",
+        "internalPath": ""
+      },
+      "name": "btnRequestAccessCode",
+      "text": "Request Access Code"
+    },
+    "styles": {
+      "xl": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 5,
+          "x": 12,
+          "y": 72
+        }
+      },
+      "xs": {
+        "flex": {
+          "grow": "0",
+          "shrink": "0",
+          "size": {
+            "heightUnit": "px",
+            "heightValue": 36,
+            "widthValue": "auto"
+          }
+        },
+        "gridItem": {
+          "h": 9,
+          "w": 24,
+          "x": 0,
+          "y": 66
+        }
+      }
+    }
+  }
+]

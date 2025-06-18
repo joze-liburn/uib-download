@@ -1,0 +1,33 @@
+[
+  {
+    "children": [
+      {
+        "children": [],
+        "disableInMenu": false,
+        "hideFromMenu": false,
+        "id": "17285018917150.19008953354465086",
+        "name": "Submit New",
+        "parentPageId": "17286005766600.1414024923751689",
+        "roleIds": [],
+        "url": "submission-j1edi022iz6qk17eh5mg"
+      }
+    ],
+    "disableInMenu": false,
+    "hideFromMenu": false,
+    "id": "17286005766600.1414024923751689",
+    "name": "Manage Hardware",
+    "parentPageId": "",
+    "roleIds": [],
+    "url": "manage-hardware"
+  },
+  {
+    "children": [],
+    "disableInMenu": false,
+    "hideFromMenu": false,
+    "id": "17285018917150.19008953354465086",
+    "name": "Submit New",
+    "parentPageId": "17286005766600.1414024923751689",
+    "roleIds": [],
+    "url": "submission-j1edi022iz6qk17eh5mg"
+  }
+]
