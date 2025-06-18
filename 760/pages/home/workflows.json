@@ -1,0 +1,1655 @@
+[
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17290213269760.3142477746952266",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapFieldOptions",
+    "nameConfigured": true,
+    "parentId": null,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291913478460.1245918119359779",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "arrayManufacturers",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "[]",
+      "value": "[]",
+      "valueType": "array",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291913625810.27294317823727665",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapModels",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291913744160.4956071431949438",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "arrayModels",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "[]",
+      "value": "[]",
+      "valueType": "array",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291914047020.379608378590071",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "mapCompatLevel",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "{}",
+      "value": "{}",
+      "valueType": "object",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291914254820.8866161945876856",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varFieldSelectModel",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "[]",
+      "value": "[]",
+      "valueType": "array",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "preserveStateOnPageChange": false
+    },
+    "configured": true,
+    "id": "17291914443830.690516621367288",
+    "kind": "store_item",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "varFirstTimeFilterOpen",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [],
+    "storeItem": {
+      "initialValue": "true",
+      "value": "true",
+      "valueType": "boolean",
+      "version": 1
+    }
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.onPageLoad.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.onPageLoad.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.onPageLoad.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": false,
+    "id": "17290221069380.15237183860655823",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "onPageLoad",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17290432826100.909874691289825",
+        "isChanged": true,
+        "level": 0,
+        "name": "code_windowReload",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "if (state.varLogoutHomepageRefresh) {\n  state.varLogoutHomepageRefresh = false;\n  window.location.reload();\n}\n\nreturn {{data}};",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17290221234080.03245232906629569",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_loadCertRatingLevelOptions",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17291914645420.8882066778222655",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291920296580.5504532757968679",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_getFieldOptions",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17291916750070.4536432048944996",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291920760210.5830396704308647",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_getSearchOptions",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17291917729980.16800620508244268",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291920612260.5104355951169188",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_onFilterClear",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17291917299660.40729820067110634",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.loadCertRatingLevelOptions.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.loadCertRatingLevelOptions.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.loadCertRatingLevelOptions.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291914645420.8882066778222655",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "loadCertRatingLevelOptions",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291914645420.024985847816801687",
+        "isChanged": true,
+        "level": 0,
+        "name": "query_getRatingLevels_returnTitleValue",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT cert_level_name as title, cert_level_id as value \nFROM public.cert_rating_levels \nWHERE cert_level_id \u003e= 2\nORDER BY cert_level_id;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT cert_level_name as title, cert_level_id as value \nFROM public.cert_rating_levels \nWHERE cert_level_id \u003e= 2\nORDER BY cert_level_id;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.loadCertRatingEntries_dsp.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.loadCertRatingEntries_dsp.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.loadCertRatingEntries_dsp.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291916094300.6524068838011945",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "loadCertRatingEntries_dsp",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291916094300.2434742204247735",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute",
+        "params": [
+          {
+            "type": "action",
+            "value": "17272966039530.3502374062443139",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "paused": true,
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291916094300.05069227035363011",
+        "isChanged": true,
+        "level": 0,
+        "name": "load",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "string"
+          },
+          {
+            "type": "resourceId",
+            "value": "public.view_cert_rating_entry_scoring_debug_w_perc_level",
+            "valueType": "string"
+          },
+          {
+            "type": "filters",
+            "value": [
+              {
+                "column": "lb_visible_public",
+                "operation": "=",
+                "value": {
+                  "value": "TRUE"
+                }
+              },
+              {
+                "column": "cert_entry_status",
+                "operation": "!=",
+                "value": {
+                  "value": "Test Record"
+                }
+              },
+              {
+                "column": "device_type",
+                "operation": "like",
+                "value": {
+                  "value": "DSP"
+                }
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "ordering",
+            "value": {
+              "limit": {
+                "value": 1000
+              },
+              "offset": {
+                "value": ""
+              },
+              "orderBy": {
+                "value": "issue_cert_level_id"
+              },
+              "orderDirection": {
+                "value": "desc"
+              }
+            },
+            "valueType": "custom"
+          },
+          {
+            "type": "additionalParams",
+            "value": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "LOAD_COLLECTION"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.loadCertRatingEntries_gcode.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.loadCertRatingEntries_gcode.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.loadCertRatingEntries_gcode.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291916454080.5531837229559029",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "loadCertRatingEntries_gcode",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291916454090.7955388665502321",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute",
+        "params": [
+          {
+            "type": "action",
+            "value": "17272966039530.3502374062443139",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "paused": true,
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291916454090.3419184767167751",
+        "isChanged": true,
+        "level": 0,
+        "name": "load",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "string"
+          },
+          {
+            "type": "resourceId",
+            "value": "public.view_cert_rating_entry_scoring_debug_w_perc_level",
+            "valueType": "string"
+          },
+          {
+            "type": "filters",
+            "value": [
+              {
+                "column": "lb_visible_public",
+                "operation": "=",
+                "value": {
+                  "value": "TRUE"
+                }
+              },
+              {
+                "column": "cert_entry_status",
+                "operation": "!=",
+                "value": {
+                  "value": "Test Record"
+                }
+              },
+              {
+                "column": "device_type",
+                "operation": "like",
+                "value": {
+                  "value": "GCode"
+                }
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "ordering",
+            "value": {
+              "limit": {
+                "value": 1000
+              },
+              "offset": {
+                "value": ""
+              },
+              "orderBy": {
+                "value": "issue_cert_level_id"
+              },
+              "orderDirection": {
+                "value": "desc"
+              }
+            },
+            "valueType": "custom"
+          },
+          {
+            "type": "additionalParams",
+            "value": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "LOAD_COLLECTION"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.loadCertRatingEntries_galvo.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.loadCertRatingEntries_galvo.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.loadCertRatingEntries_galvo.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291916588580.7659525989883973",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "loadCertRatingEntries_galvo",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291916588580.028528734005712986",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute",
+        "params": [
+          {
+            "type": "action",
+            "value": "17272966039530.3502374062443139",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "paused": true,
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291916588580.5220786663672048",
+        "isChanged": true,
+        "level": 0,
+        "name": "load",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "string"
+          },
+          {
+            "type": "resourceId",
+            "value": "public.view_cert_rating_entry_scoring_debug_w_perc_level",
+            "valueType": "string"
+          },
+          {
+            "type": "filters",
+            "value": [
+              {
+                "column": "lb_visible_public",
+                "operation": "=",
+                "value": {
+                  "value": "TRUE"
+                }
+              },
+              {
+                "column": "cert_entry_status",
+                "operation": "!=",
+                "value": {
+                  "value": "Test Record"
+                }
+              },
+              {
+                "column": "device_type",
+                "operation": "like",
+                "value": {
+                  "value": "Galvo"
+                }
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "ordering",
+            "value": {
+              "limit": {
+                "value": 1000
+              },
+              "offset": {
+                "value": ""
+              },
+              "orderBy": {
+                "value": "issue_cert_level_id"
+              },
+              "orderDirection": {
+                "value": "desc"
+              }
+            },
+            "valueType": "custom"
+          },
+          {
+            "type": "additionalParams",
+            "value": [
+              {
+                "name": "",
+                "value": ""
+              }
+            ],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "LOAD_COLLECTION"
+      }
+    ]
+  },
+  {
+    "actions": {
+      "error": [],
+      "success": []
+    },
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.getFieldOptions.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.getFieldOptions.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.getFieldOptions.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291916750070.4536432048944996",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "getFieldOptions",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": true,
+        "id": "17291916750070.21051745867473404",
+        "isChanged": true,
+        "level": 1,
+        "name": "queryFieldOptions_all",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT field_name AS key, string_agg(option_name, ',') AS value FROM public.cert_rating_field_options GROUP BY field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT field_name AS key, string_agg(option_name, ',') AS value FROM public.cert_rating_field_options GROUP BY field_name;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "const list = data.map(item =\u003e item.option_name);\nstate.varField_camera_com = list;\nreturn list;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291916750070.8940995508566749",
+        "isChanged": true,
+        "level": 1,
+        "name": "code",
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "const resultObject = {};\n\n{{steps.queryFieldOptions_all.data}}.forEach(item =\u003e {\n    resultObject[item.key] = item.value.split(',');\n});\n\n// This returns a Map where you can get values by key\nstate.mapFieldOptions = resultObject;\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.onFilterSubmit.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.onFilterSubmit.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.onFilterSubmit.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": false,
+    "id": "17291917000300.25210795904079975",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": true,
+    "name": "onFilterSubmit",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291917000300.008313831240971625",
+        "isChanged": true,
+        "level": 0,
+        "name": "code",
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "// Assuming popupFormGlobalFilterCriteria values are accessible via an action variable\nconst formValues = {{ui.popupFormGlobalFilterCriteria.value}};\nconst filterCriteria = {};\n\nif (ui.selectManufacturer.value.length \u003e 0) {\n  filterCriteria['manufacturer'] = ui.selectManufacturer.value;\n} else {\n  filterCriteria['manufacturer'] = \"\";\n}\n\nif (ui.selectModel.value.length \u003e 0) {\n  filterCriteria['model'] = ui.selectModel.value;\n} else {\n  filterCriteria['model'] = \"\";\n}\n\nif (ui.selectCompatLevel.value.length \u003e 0) {\n  filterCriteria['issue_cert_level_id'] = ui.selectCompatLevel.value;\n} else {\n  filterCriteria['issue_cert_level_id'] = \"\";\n}\n\n// Iterate over form values\nObject.keys(formValues).forEach(key =\u003e {\n    const value = formValues[key];\n    // Check if the value is not null or empty\n    if (value !== undefined \u0026\u0026 value !== null \u0026\u0026 value !== '') {\n        // Assemble the filter criteria\n        if (value.length \u003e 0) {\n            filterCriteria[key] = value;\n        }\n    }\n});\n\n// Return the assembled filter criteria to use in subsequent steps or actions\nstate.mapGlobalFilter = filterCriteria;\n\nui.certRatingEntriesTable_gcode.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_dsp.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_galvo.setFilters(state.mapGlobalFilter);\n\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.onFilterClear.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.onFilterClear.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.onFilterClear.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": false,
+    "id": "17291917299660.40729820067110634",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": true,
+    "name": "onFilterClear",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291917299660.5504176019210094",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeClearDropDownSearch",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "ui.selectManufacturer.setValue(\"\");\nui.selectModel.setValue(\"\");\nui.selectCompatLevel.setValue(\"\");\n\nreturn {{data}};",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291917299660.9146711894046393",
+        "isChanged": true,
+        "level": 0,
+        "name": "execute_onChangeManufacturer",
+        "nameConfigured": true,
+        "params": [
+          {
+            "type": "action",
+            "value": "17291918022860.1685026392009632",
+            "valueType": "custom"
+          },
+          {
+            "type": "isActionsLibraryCall",
+            "value": false,
+            "valueType": "custom"
+          },
+          {
+            "interpolationType": "code",
+            "type": "customParams",
+            "value": "return {{data}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "interpolationType": "code",
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "executeAction"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291917299660.4413336618831889",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeClearAdvancedSearch",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "ui.popupFormGlobalFilterCriteria.setValue({\n    camera_com: \"\",          // Assuming this is a text input\n    com: \"\",                 // Text input\n    device_type: \"\",         // Text input or select with an empty option\n    firmware_breaking: \"\",   // Text input or boolean toggle set to a default\n    firmware_custom: \"\",     // Text input or boolean toggle set to a default\n    job_xfer: \"\",            // Text input\n    laser_source: \"\",        // Text input or select with an empty option\n    lb_native: \"\",           // Text input or boolean toggle set to a default\n    output_air: \"\",          // Text input or boolean toggle set to a default\n    output_exhaust: \"\",      // Text input or boolean toggle set to a default\n    output_relay: \"\",        // Text input or boolean toggle set to a default\n    provide_bundle: \"\",      // Text input or boolean toggle set to a default\n    provide_cameracal: \"\",   // Text input or boolean toggle set to a default\n    provide_driver: \"\",      // Text input\n    provide_firmware: \"\",    // Text input\n    provide_lbdev: \"\",       // Text input\n    provide_matlib: \"\",      // Text input\n    provide_scanoffsets: \"\",// Text input\n    rotary: \"\",              // Text input or boolean toggle set to a default\n    sensor_endstops: \"\"      // Text input or boolean toggle set to a default\n});\n\nstate.mapGlobalFilter = {};\n\nui.certRatingEntriesTable_gcode.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_dsp.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_galvo.setFilters(state.mapGlobalFilter);\n\nui.popupFormGlobalFilterCriteria.close();\n\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291942239760.8825036539357398",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeClearFilter",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "const currentFilter = ui.certRatingEntriesTable_gcode.filters;\n\nObject.keys(currentFilter).forEach(key =\u003e {\n  currentFilter[key] = \"\"; // Set each property to \"\"\n});\n\nstate.mapGlobalFilter = currentFilter;\n\nui.certRatingEntriesTable_gcode.setFilters(currentFilter);\nui.certRatingEntriesTable_dsp.setFilters(currentFilter);\nui.certRatingEntriesTable_galvo.setFilters(currentFilter);\n\nreturn {{data}};",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.getSearchOptions.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.getSearchOptions.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.getSearchOptions.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": true,
+    "id": "17291917729980.16800620508244268",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "getSearchOptions",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291917729980.9373712851612788",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetManufacturers",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT string_agg(distinct manufacturer, ',') AS manufacturers FROM (SELECT trim(manufacturer) AS manufacturer FROM public.cert_rating_entries WHERE manufacturer IS NOT NULL AND manufacturer != '' AND lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER by trim(manufacturer)) AS cert_rating_entries_manufacturer;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT string_agg(distinct manufacturer, ',') AS manufacturers FROM (SELECT trim(manufacturer) AS manufacturer FROM public.cert_rating_entries WHERE manufacturer IS NOT NULL AND manufacturer != '' AND lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER by trim(manufacturer)) AS cert_rating_entries_manufacturer;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291917729980.20779215626745362",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetModelsMap",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT trim(manufacturer) as key, string_agg(trim(model), ',') AS value FROM (SELECT trim(manufacturer) AS manufacturer, trim(model) AS model FROM public.cert_rating_entries WHERE lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER BY manufacturer, model) AS cert_rating_entries_sorted GROUP BY trim(manufacturer);",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT trim(manufacturer) as key, string_agg(trim(model), ',') AS value FROM (SELECT trim(manufacturer) AS manufacturer, trim(model) AS model FROM public.cert_rating_entries WHERE lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER BY manufacturer, model) AS cert_rating_entries_sorted GROUP BY trim(manufacturer);",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291917729980.5591367883129594",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetModelsArray",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT string_agg(trim(model), ',') AS models FROM (SELECT trim(model) AS model FROM public.cert_rating_entries WHERE lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER BY model) AS cert_rating_entries_sorted;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT string_agg(trim(model), ',') AS models FROM (SELECT trim(model) AS model FROM public.cert_rating_entries WHERE lb_visible_public = true AND cert_entry_status NOT LIKE 'Test Record' ORDER BY model) AS cert_rating_entries_sorted;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291925567780.25598796243057365",
+        "isChanged": true,
+        "level": 0,
+        "name": "queryGetCompatLevels",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "string",
+            "type": "query",
+            "value": "SELECT cert_level_name as label, cert_level_id as value \nFROM public.cert_rating_levels \nWHERE cert_level_id \u003e= 2\nORDER BY cert_level_id;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "mustSelectFirst": true,
+            "type": "datasourceId",
+            "value": "Lightburn (PG)",
+            "valueType": "custom"
+          },
+          {
+            "type": "preparedQuery",
+            "value": "SELECT cert_level_name as label, cert_level_id as value \nFROM public.cert_rating_levels \nWHERE cert_level_id \u003e= 2\nORDER BY cert_level_id;",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "preparedQueryParams",
+            "value": [],
+            "valueType": "custom"
+          },
+          {
+            "type": "customDatabaseName",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "stepVersion",
+            "value": 2,
+            "valueType": "custom"
+          },
+          {
+            "type": "successMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "failureMapper",
+            "value": "",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "mapperEnabled",
+            "value": false,
+            "valueType": "custom"
+          }
+        ],
+        "type": "customSQLQuery"
+      },
+      {
+        "fallthroughError": false,
+        "id": "17291917729980.256207583247996",
+        "isChanged": true,
+        "level": 0,
+        "name": "codeLoadSearchVariables",
+        "nameConfigured": true,
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "var resultObjectManufacturers = steps.queryGetManufacturers.data[0].manufacturers.split(',');\nconst resultObjectModels_array = [];\nconst resultObjectModels = {};\nvar resultObjectLevels = null;\n\n{{steps.queryGetModelsMap.data}}.forEach(item =\u003e {\n    resultObjectModels[item.key] = item.value.split(',');\n  \tresultObjectModels_array.push(...item.value.split(','));\n});\n\n{{steps.queryGetModelsArray.data}}.forEach(item =\u003e {\n    resultObjectModels_array.push(...item.models.split(','));\n});\n\nresultObjectLevels = {{steps.queryGetCompatLevels.data}}.map(item =\u003e ({\n  label: item.label, // The text that will be displayed\n  value: item.value.toString(), // The value associated with the option, converted to string if necessary\n}));\n\n// This returns a Map where you can get values by key\nstate.arrayManufacturers = resultObjectManufacturers;\nstate.mapModels = resultObjectModels;\nstate.arrayModels = resultObjectModels_array;\nstate.varFieldSelectModel = resultObjectModels_array;\nstate.mapCompatLevel = resultObjectLevels;\nreturn true;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.onOpen.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.onOpen.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.onOpen.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "id": "17291917890200.2912061922002904",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": true,
+    "name": "onOpen",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": false,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291917890200.220815171173679",
+        "isChanged": true,
+        "level": 0,
+        "name": "condition",
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "code",
+            "value": "return {{state.varFirstTimeFilterOpen}};",
+            "valueType": "interpolatedValue"
+          },
+          {
+            "type": "steps",
+            "value": [
+              {
+                "condition": true,
+                "steps": [
+                  {
+                    "fallthroughError": false,
+                    "id": "17291917890260.48011637148007846",
+                    "isChanged": true,
+                    "level": 1,
+                    "name": "code",
+                    "params": [
+                      {
+                        "interpolationType": "code",
+                        "type": "asyncCode",
+                        "value": "ui.popupFormGlobalFilterCriteria.setValue({\n    camera_com: \"\",          // Assuming this is a text input\n    com: \"\",                 // Text input\n    device_type: \"\",         // Text input or select with an empty option\n    firmware_breaking: \"\",   // Text input or boolean toggle set to a default\n    firmware_custom: \"\",     // Text input or boolean toggle set to a default\n    job_xfer: \"\",            // Text input\n    laser_source: \"\",        // Text input or select with an empty option\n    lb_native: \"\",           // Text input or boolean toggle set to a default\n    output_air: \"\",          // Text input or boolean toggle set to a default\n    output_exhaust: \"\",      // Text input or boolean toggle set to a default\n    output_relay: \"\",        // Text input or boolean toggle set to a default\n    provide_bundle: \"\",      // Text input or boolean toggle set to a default\n    provide_cameracal: \"\",   // Text input or boolean toggle set to a default\n    provide_driver: \"\",      // Text input\n    provide_firmware: \"\",    // Text input\n    provide_lbdev: \"\",       // Text input\n    provide_matlib: \"\",      // Text input\n    provide_scanoffsets: \"\",// Text input\n    rotary: \"\",              // Text input or boolean toggle set to a default\n    sensor_endstops: \"\"      // Text input or boolean toggle set to a default\n});\n\nstate.mapGlobalFilter = {};\n\nui.certRatingEntriesTable_gcode.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_dsp.setFilters(state.mapGlobalFilter);\nui.certRatingEntriesTable_galvo.setFilters(state.mapGlobalFilter);\n\nreturn true;",
+                        "valueType": "interpolatedValue"
+                      }
+                    ],
+                    "type": "customAsyncCode"
+                  },
+                  {
+                    "fallthroughError": false,
+                    "id": "17291917890260.6897224127282799",
+                    "isChanged": true,
+                    "level": 1,
+                    "name": "save",
+                    "params": [
+                      {
+                        "type": "name",
+                        "value": "17289324000580.9126635910116794",
+                        "valueType": "string"
+                      },
+                      {
+                        "interpolationType": "code",
+                        "type": "value",
+                        "value": "false",
+                        "valueType": "interpolatedValue"
+                      },
+                      {
+                        "type": "producible",
+                        "value": true,
+                        "valueType": "custom"
+                      }
+                    ],
+                    "type": "putInStore"
+                  }
+                ]
+              },
+              {
+                "condition": false,
+                "steps": []
+              }
+            ],
+            "valueType": "custom"
+          }
+        ],
+        "type": "condition"
+      }
+    ]
+  },
+  {
+    "config": {
+      "confirmMessage": "Are you sure you'd like to proceed with \"{{actions.onChangeManufacturer.name}}\"?",
+      "delay": "0",
+      "errorToast": "Action \"{{actions.onChangeManufacturer.name}}\" has failed",
+      "errorToastDuration": "3000",
+      "errorToastHideByClick": false,
+      "preserveStateOnPageChange": false,
+      "runWhenFirstReferenced": true,
+      "shouldConfirm": false,
+      "showErrorToast": true,
+      "showSuccessToast": false,
+      "successToast": "Action \"{{actions.onChangeManufacturer.name}}\" successfully executed",
+      "successToastDuration": "3000",
+      "successToastHideByClick": false
+    },
+    "configured": false,
+    "id": "17291918022860.1685026392009632",
+    "kind": "workflow",
+    "mode": "manual",
+    "modeConfigured": false,
+    "name": "onChangeManufacturer",
+    "nameConfigured": true,
+    "parentPageId": "1",
+    "selected": true,
+    "steps": [
+      {
+        "fallthroughError": false,
+        "id": "17291918022860.9562397215602332",
+        "isChanged": true,
+        "level": 0,
+        "name": "code",
+        "params": [
+          {
+            "interpolationType": "code",
+            "type": "asyncCode",
+            "value": "if (ui.selectManufacturer.value.length === 0) {\n  state.varFieldSelectModel = state.arrayModels;\n} else {\n  state.varFieldSelectModel = state.mapModels[ui.selectManufacturer.value];\n}\n\nreturn state.varFieldSelectModel;",
+            "valueType": "interpolatedValue"
+          }
+        ],
+        "type": "customAsyncCode"
+      }
+    ]
+  }
+]

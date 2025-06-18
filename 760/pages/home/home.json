@@ -1,0 +1,11 @@
+[
+  {
+    "children": [],
+    "disableInMenu": false,
+    "hideFromMenu": false,
+    "id": "1",
+    "name": "Home",
+    "roleIds": [],
+    "url": "home"
+  }
+]
