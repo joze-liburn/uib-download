@@ -102,6 +102,7 @@ func writeToFSInd(root string, exportFragments map[string]any, export map[string
 	for _, fragment := range exportFragments {
 		node, err := castToNode(fragment)
 		if err != nil {
+			// It will be difficult to come here, as checkDistinct() survived.
 			return err
 		}
 		name := getUrlForFragment(node)

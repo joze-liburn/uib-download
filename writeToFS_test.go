@@ -179,3 +179,53 @@ func Test_writeOtherToFS(t *testing.T) {
 		})
 	}
 }
+
+func Test_writeToFSInd(t *testing.T) {
+	tests := []struct {
+		name      string
+		root      string
+		fragments string
+		export    map[string]any
+		want      map[string]int
+		err       error
+	}{
+		{name: "empty", fragments: `{}`, want: make(map[string]int)},
+		{name: "bad-fragment", fragments: `{ "f1": [1] }`, err: errNotANode, want: make(map[string]int)},
+		{
+			name:      "one-page",
+			fragments: `{ "pg1": { "rootPageList" : [ { "id":1, "url": "pg1" } ] } }`,
+			root:      "/home/",
+			want:      map[string]int{"/home/pages/pg1": 1, "/home/pages/pg1/pg1.json": 1},
+		},
+		{
+			name:      "one-page-components",
+			fragments: `{ "pg1": { "rootPageList" : [ { "id":1, "url": "pg1" } ], "componentList" : [ { "id":21, "parentPageId": 1 } ] } }`,
+			want:      map[string]int{"pages/pg1": 1, "pages/pg1/components.json": 1, "pages/pg1/pg1.json": 1},
+		},
+		{
+			name:      "two",
+			fragments: `{ "pg1": { "rootPageList" : [ { "id":1, "url": "pg1" } ] }, "pg2": { "rootPageList" : [ { "id":2, "url": "pg2" } ], "componentList" : [ { "id":22, "parentPageId": 2 } ] } }`,
+			want:      map[string]int{"pages/pg1": 1, "pages/pg1/pg1.json": 1, "pages/pg2": 1, "pages/pg2/components.json": 1, "pages/pg2/pg2.json": 1},
+		},
+	}
+
+	for _, test := range tests {
+		t.Run(test.name, func(t *testing.T) {
+			files := make(map[string]int)
+			fragments := make(map[string]any)
+			if err := json.Unmarshal([]byte(test.fragments), &fragments); err != nil {
+				t.Fatalf("%s: 'json' %q does not convert into JSON: %v", test.name, test.fragments, err)
+			}
+
+			err := writeToFSInd(test.root, fragments, test.export,
+				func(path string, mode fs.FileMode) error { files[path]++; return nil },
+				func(path string, data []byte, mode fs.FileMode) error { files[path]++; return nil })
+			if !errors.Is(err, test.err) {
+				t.Errorf("%s: error got %s, want %s", test.name, err, test.err)
+			}
+			if df := cmp.Diff(test.want, files); df != "" {
+				t.Errorf("%s: -want +got %s", test.name, df)
+			}
+		})
+	}
+}
